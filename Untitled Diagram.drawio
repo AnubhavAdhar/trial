@@ -4,6 +4,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-5" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="bBGYsic3z8YBzS9QmQXq-1" target="bBGYsic3z8YBzS9QmQXq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-1" value="RAW DATASET" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="bBGYsic3z8YBzS9QmQXq-4" target="bBGYsic3z8YBzS9QmQXq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;elbow=vertical;entryX=0.306;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bBGYsic3z8YBzS9QmQXq-4" target="bBGYsic3z8YBzS9QmQXq-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-4" value="PUSH INTO SQL DATABASE" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="bBGYsic3z8YBzS9QmQXq-6" target="bBGYsic3z8YBzS9QmQXq-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-6" value="DATA CLEANING" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.625;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="bBGYsic3z8YBzS9QmQXq-8" target="bBGYsic3z8YBzS9QmQXq-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-8" value="USE T-SQL TO &lt;br&gt;PUSH DATA INTO &lt;br&gt;THE DATABASE" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="240" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="105" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
