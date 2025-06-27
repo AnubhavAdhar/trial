@@ -23,8 +23,10 @@
         <mxCell id="bBGYsic3z8YBzS9QmQXq-4" value="PUSH INTO SQL DATABASE" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="70" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="bBGYsic3z8YBzS9QmQXq-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="bBGYsic3z8YBzS9QmQXq-6" target="bBGYsic3z8YBzS9QmQXq-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bBGYsic3z8YBzS9QmQXq-14" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="bBGYsic3z8YBzS9QmQXq-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="135" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bBGYsic3z8YBzS9QmQXq-6" value="DATA CLEANING" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="105" width="120" height="60" as="geometry" />
@@ -38,9 +40,6 @@
         </mxCell>
         <mxCell id="bBGYsic3z8YBzS9QmQXq-8" value="USE T-SQL TO &lt;br&gt;PUSH DATA INTO &lt;br&gt;THE DATABASE" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="175" y="240" width="210" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="bBGYsic3z8YBzS9QmQXq-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="105" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
